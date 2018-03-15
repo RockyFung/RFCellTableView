@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5106B2205A72A20041625E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106B1205A72A20041625E /* AppDelegate.m */; };
+		5A5106B5205A72A20041625E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106B4205A72A20041625E /* ViewController.m */; };
+		5A5106B8205A72A30041625E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5106B6205A72A30041625E /* Main.storyboard */; };
+		5A5106BA205A72A30041625E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5106B9205A72A30041625E /* Assets.xcassets */; };
+		5A5106BD205A72A30041625E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5106BB205A72A30041625E /* LaunchScreen.storyboard */; };
+		5A5106C0205A72A30041625E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106BF205A72A30041625E /* main.m */; };
+		5A5106CA205A72A30041625E /* RFCellTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106C9205A72A30041625E /* RFCellTableViewTests.m */; };
+		5A5106D5205A72A30041625E /* RFCellTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106D4205A72A30041625E /* RFCellTableViewUITests.m */; };
+		5A5106EB205A75B70041625E /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106EA205A75B70041625E /* ContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A5106C6205A72A30041625E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5106A5205A72A20041625E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5106AC205A72A20041625E;
+			remoteInfo = RFCellTableView;
+		};
+		5A5106D1205A72A30041625E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5106A5205A72A20041625E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5106AC205A72A20041625E;
+			remoteInfo = RFCellTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A5106AD205A72A20041625E /* RFCellTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFCellTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5106B0205A72A20041625E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A5106B1205A72A20041625E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A5106B3205A72A20041625E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A5106B4205A72A20041625E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A5106B7205A72A30041625E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A5106B9205A72A30041625E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A5106BC205A72A30041625E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A5106BE205A72A30041625E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5106BF205A72A30041625E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A5106C5205A72A30041625E /* RFCellTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFCellTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5106C9205A72A30041625E /* RFCellTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFCellTableViewTests.m; sourceTree = "<group>"; };
+		5A5106CB205A72A30041625E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5106D0205A72A30041625E /* RFCellTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFCellTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5106D4205A72A30041625E /* RFCellTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFCellTableViewUITests.m; sourceTree = "<group>"; };
+		5A5106D6205A72A30041625E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5106E9205A75B70041625E /* ContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		5A5106EA205A75B70041625E /* ContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A5106AA205A72A20041625E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5106C2205A72A30041625E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5106CD205A72A30041625E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5106A4205A72A20041625E = {
+			isa = PBXGroup;
+			children = (
+				5A5106AF205A72A20041625E /* RFCellTableView */,
+				5A5106C8205A72A30041625E /* RFCellTableViewTests */,
+				5A5106D3205A72A30041625E /* RFCellTableViewUITests */,
+				5A5106AE205A72A20041625E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5106AE205A72A20041625E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A5106AD205A72A20041625E /* RFCellTableView.app */,
+				5A5106C5205A72A30041625E /* RFCellTableViewTests.xctest */,
+				5A5106D0205A72A30041625E /* RFCellTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A5106AF205A72A20041625E /* RFCellTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5A5106B0205A72A20041625E /* AppDelegate.h */,
+				5A5106B1205A72A20041625E /* AppDelegate.m */,
+				5A5106B3205A72A20041625E /* ViewController.h */,
+				5A5106B4205A72A20041625E /* ViewController.m */,
+				5A5106E9205A75B70041625E /* ContentView.h */,
+				5A5106EA205A75B70041625E /* ContentView.m */,
+				5A5106B6205A72A30041625E /* Main.storyboard */,
+				5A5106B9205A72A30041625E /* Assets.xcassets */,
+				5A5106BB205A72A30041625E /* LaunchScreen.storyboard */,
+				5A5106BE205A72A30041625E /* Info.plist */,
+				5A5106BF205A72A30041625E /* main.m */,
+			);
+			path = RFCellTableView;
+			sourceTree = "<group>";
+		};
+		5A5106C8205A72A30041625E /* RFCellTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5106C9205A72A30041625E /* RFCellTableViewTests.m */,
+				5A5106CB205A72A30041625E /* Info.plist */,
+			);
+			path = RFCellTableViewTests;
+			sourceTree = "<group>";
+		};
+		5A5106D3205A72A30041625E /* RFCellTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5106D4205A72A30041625E /* RFCellTableViewUITests.m */,
+				5A5106D6205A72A30041625E /* Info.plist */,
+			);
+			path = RFCellTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A5106AC205A72A20041625E /* RFCellTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5106D9205A72A30041625E /* Build configuration list for PBXNativeTarget "RFCellTableView" */;
+			buildPhases = (
+				5A5106A9205A72A20041625E /* Sources */,
+				5A5106AA205A72A20041625E /* Frameworks */,
+				5A5106AB205A72A20041625E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFCellTableView;
+			productName = RFCellTableView;
+			productReference = 5A5106AD205A72A20041625E /* RFCellTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A5106C4205A72A30041625E /* RFCellTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5106DC205A72A30041625E /* Build configuration list for PBXNativeTarget "RFCellTableViewTests" */;
+			buildPhases = (
+				5A5106C1205A72A30041625E /* Sources */,
+				5A5106C2205A72A30041625E /* Frameworks */,
+				5A5106C3205A72A30041625E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5106C7205A72A30041625E /* PBXTargetDependency */,
+			);
+			name = RFCellTableViewTests;
+			productName = RFCellTableViewTests;
+			productReference = 5A5106C5205A72A30041625E /* RFCellTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A5106CF205A72A30041625E /* RFCellTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5106DF205A72A30041625E /* Build configuration list for PBXNativeTarget "RFCellTableViewUITests" */;
+			buildPhases = (
+				5A5106CC205A72A30041625E /* Sources */,
+				5A5106CD205A72A30041625E /* Frameworks */,
+				5A5106CE205A72A30041625E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5106D2205A72A30041625E /* PBXTargetDependency */,
+			);
+			name = RFCellTableViewUITests;
+			productName = RFCellTableViewUITests;
+			productReference = 5A5106D0205A72A30041625E /* RFCellTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5106A5205A72A20041625E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "冯剑";
+				TargetAttributes = {
+					5A5106AC205A72A20041625E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A5106C4205A72A30041625E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A5106AC205A72A20041625E;
+					};
+					5A5106CF205A72A30041625E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A5106AC205A72A20041625E;
+					};
+				};
+			};
+			buildConfigurationList = 5A5106A8205A72A20041625E /* Build configuration list for PBXProject "RFCellTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5106A4205A72A20041625E;
+			productRefGroup = 5A5106AE205A72A20041625E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5106AC205A72A20041625E /* RFCellTableView */,
+				5A5106C4205A72A30041625E /* RFCellTableViewTests */,
+				5A5106CF205A72A30041625E /* RFCellTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5106AB205A72A20041625E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5106BD205A72A30041625E /* LaunchScreen.storyboard in Resources */,
+				5A5106BA205A72A30041625E /* Assets.xcassets in Resources */,
+				5A5106B8205A72A30041625E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5106C3205A72A30041625E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5106CE205A72A30041625E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5106A9205A72A20041625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5106B5205A72A20041625E /* ViewController.m in Sources */,
+				5A5106EB205A75B70041625E /* ContentView.m in Sources */,
+				5A5106C0205A72A30041625E /* main.m in Sources */,
+				5A5106B2205A72A20041625E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5106C1205A72A30041625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5106CA205A72A30041625E /* RFCellTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5106CC205A72A30041625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5106D5205A72A30041625E /* RFCellTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5106C7205A72A30041625E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5106AC205A72A20041625E /* RFCellTableView */;
+			targetProxy = 5A5106C6205A72A30041625E /* PBXContainerItemProxy */;
+		};
+		5A5106D2205A72A30041625E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5106AC205A72A20041625E /* RFCellTableView */;
+			targetProxy = 5A5106D1205A72A30041625E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A5106B6205A72A30041625E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5106B7205A72A30041625E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A5106BB205A72A30041625E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5106BC205A72A30041625E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A5106D7205A72A30041625E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A5106D8205A72A30041625E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A5106DA205A72A30041625E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFCellTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFCellTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A5106DB205A72A30041625E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFCellTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFCellTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A5106DD205A72A30041625E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFCellTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFCellTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFCellTableView.app/RFCellTableView";
+			};
+			name = Debug;
+		};
+		5A5106DE205A72A30041625E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFCellTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFCellTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFCellTableView.app/RFCellTableView";
+			};
+			name = Release;
+		};
+		5A5106E0205A72A30041625E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFCellTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFCellTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFCellTableView;
+			};
+			name = Debug;
+		};
+		5A5106E1205A72A30041625E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFCellTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFCellTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFCellTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5106A8205A72A20041625E /* Build configuration list for PBXProject "RFCellTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5106D7205A72A30041625E /* Debug */,
+				5A5106D8205A72A30041625E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5106D9205A72A30041625E /* Build configuration list for PBXNativeTarget "RFCellTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5106DA205A72A30041625E /* Debug */,
+				5A5106DB205A72A30041625E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5106DC205A72A30041625E /* Build configuration list for PBXNativeTarget "RFCellTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5106DD205A72A30041625E /* Debug */,
+				5A5106DE205A72A30041625E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5106DF205A72A30041625E /* Build configuration list for PBXNativeTarget "RFCellTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5106E0205A72A30041625E /* Debug */,
+				5A5106E1205A72A30041625E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A5106A5205A72A20041625E /* Project object */;
+}
